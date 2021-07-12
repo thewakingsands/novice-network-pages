@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <title>副本攻略 | 新大陆见闻录 - 《最终幻想14》萌新指导手册</title>
+    <meta name="description" content="最终幻想14超实用萌新手册，为最终幻想14国服玩家提供涵盖广泛、清晰易懂的基础攻略指引。">
+    <meta name="keyword" content="最终幻想14,FF14,FFXIV,新人指南,萌新手册,攻略,副本,任务,练级,装备,PVP,生产,采集,优雷卡,ULK">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="generator" content="VuePress 1.3.1">
+    <script data-ad-client="ca-pub-8304225030161579" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="stylesheet" href="https://code.bdstatic.com/npm/leaflet@1.5.1/dist/leaflet.css">
+    <link rel="stylesheet" href="https://code.bdstatic.com/npm/@thewakingsands/eorzea-interactive-map@1.1.1/dist/map.css">
+    <link rel="preload" href="/assets/css/0.styles.655df446.css" as="style"><link rel="preload" href="/assets/js/app.9d63abe7.js" as="script"><link rel="preload" href="/assets/js/8.d6becf52.js" as="script"><link rel="preload" href="/assets/js/344.81469596.js" as="script"><link rel="preload" href="/assets/js/48.323e99b2.js" as="script"><link rel="preload" href="/assets/js/30.63c34083.js" as="script">
+    <link rel="stylesheet" href="/assets/css/0.styles.655df446.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="root" class="full-height root-container"><div class="main-container full-height"><div class="content-outer full-height"><div class="content-inner full-height"><div class="nav-top"><div class="ui inverted menu"><a href="javascript:;" class="item icon-item hide-large"><i class="bars icon"></i></a> <a href="/" class="item icon-item router-link-active"><i class="home angle icon"></i></a> <a href="/search.htm" class="item icon-item"><i class="search icon"></i></a> <a href="javascript:;" class="item page-title"><i class="caret icon right"></i> <span class="hide-large">副本攻略</span> <div class="hide-small">
+        章节目录
+      </div></a> <div class="right menu"><a href="javascript:;" class="item icon-item hide-small"><i class="up angle icon"></i></a> <a href="javascript:;" class="item icon-item hide-small"><i class="qrcode icon"></i></a></div></div> <!----> <!----></div> <div><div class="container" style="display:none;" data-v-8b0706fe><div class="ui tertiary orange inverted segment" data-v-8b0706fe><div class="msg" data-v-8b0706fe>
+      本站现已支持
+      <a href="/search.htm" data-v-8b0706fe>站内搜索</a>
+      ！点击左上角的搜索按钮即可搜索《新大陆见闻录》全站内容。
+    </div> <i class="icon close" data-v-8b0706fe></i></div></div> <div class="page-pager"><div class="left"><a href="/advanced/macro-intro.htm"><i class="caret left icon"></i> 宏指南
+    </a></div> <div class="right"><a href="/advanced/currency.htm"><i class="caret right icon"></i> 货币系统
+    </a></div> <div class="clear"></div></div> <div class="content-container"><div class="content-container-inner"> <div class="content__default"><h1 id="副本攻略">副本攻略</h1> <p>FF14 的副本需要使用任务搜索器（默认快捷键 <code>U</code> ）搜索排队进入，国服的玩家习惯是标记为<mark>高难度</mark>的副本推荐使用<a href="/basic/battle.html#招募">招募板功能</a>组队进入，直接随机匹配可能不易匹配到队友。</p> <div class="ui segment collaspe-text"><div class="summary"><i class="caret icon expand-icon right"></i> <span>副本类型区分介绍</span></div> <div class="details" style="display:none;"><p>FF14 的副本主要分为 4 人迷宫、蛮神讨伐、Raid（又分普通和零式）、团队任务（24 人）以及绝境战几类。</p> <ul><li>4 人副本是最普通的常见副本，主线任务和每日随机任务也以 4 人副本为主。当前版本 “最难” 的若干个 4 人本会组成<mark>随机任务：高难度</mark>的任务池，每天挑战一次可以获得大量<a href="/advanced/currency.html#战斗通货">亚拉戈点数</a>，用于兑换高级装备。等级较低的非整数级副本会组成<mark>随机任务：练级</mark>的任务池，每天挑战一次可以获得大量经验，是练级的主要手段。</li> <li>蛮神同样会分为普通和极神 2 个难度，通常只有 1 个 BOSS，普通难度的蛮神通常会在主线或主要支线任务中出现，会进入<mark>随机任务：讨伐歼灭战</mark>的任务池；极神难度则会掉落适合对应版本的武器（或饰品），以及坐骑。</li> <li>Raid 是高难度挑战副本，普通难度以体验剧情为主，不会过多为难玩家，会进入<mark>随机任务：大型任务</mark>的任务池；而零式难度适合追求战斗刺激和最强装备的玩家挑战，会掉落对应版本的最强装备 / 武器。</li> <li>24 人团队任务主要是讲述剧情，难度介于 4 人本和蛮神之间，掉落过渡装备，方便休闲玩家追赶进度。会进入<mark>随机任务：团队任务</mark>的任务池。</li> <li>绝境战是 FF14 最难的挑战级副本，不会掉落超规格装备，以外观和称号奖励为主。</li></ul> <p>副本内容的具体介绍可以跳转<a href="/topic/raid.html">挑战副本</a>部分，针对毕业装的获取可以查看<a href="/basic/bis.html">毕业装</a>部分。</p></div></div> <div class="ui segment collaspe-text"><div class="summary"><i class="caret icon expand-icon right"></i> <span>我适合哪些副本？</span></div> <div class="details" style="display:none;"><ul><li>厌恶副本的玩家可以不挑战任何副本（主线任务除外），如果需要练级可以参考<a href="/basic/levelup.html">练级指南</a>挑战随机练级或采取其他方式练级。</li> <li>绝大部分玩家都可以挑战所有 4 人本、普通蛮神、普通 Raid 以及 24 人本，这些副本的难度整体不高，如果缺乏信心可以先研读攻略或找视频了解。</li> <li>想要尝试挑战的玩家可以从极蛮神开始，逐步过渡到零式 Raid，零式 Raid 每一层的难度都会逐渐提升，因此每一层的突破都是新的挑战。</li> <li>只想要挑战最顶尖难度副本的玩家只要关注绝境战（绝本）即可。</li></ul></div></div> <h2 id="副本检索">副本检索</h2> <div data-v-2cfc33fb><div class="tag-list" data-v-2cfc33fb><div class="tag-title" data-v-2cfc33fb>等级</div> <div class="tag" data-v-2cfc33fb>
+      1~49
+    </div><div class="tag" data-v-2cfc33fb>
+      50
+    </div><div class="tag" data-v-2cfc33fb>
+      51~60
+    </div><div class="tag" data-v-2cfc33fb>
+      61~70
+    </div><div class="tag" data-v-2cfc33fb>
+      71~80
+    </div></div><div class="tag-list" data-v-2cfc33fb><div class="tag-title" data-v-2cfc33fb>参加人数</div> <div class="tag" data-v-2cfc33fb>
+      4人
+    </div><div class="tag" data-v-2cfc33fb>
+      8人
+    </div><div class="tag" data-v-2cfc33fb>
+      24人
+    </div></div><div class="tag-list" data-v-2cfc33fb><div class="tag-title" data-v-2cfc33fb>类型</div> <div class="tag" data-v-2cfc33fb>
+      迷宫挑战
+    </div><div class="tag" data-v-2cfc33fb>
+      讨伐歼灭
+    </div><div class="tag" data-v-2cfc33fb>
+      极神
+    </div><div class="tag" data-v-2cfc33fb>
+      普通 Raid
+    </div><div class="tag" data-v-2cfc33fb>
+      零式 Raid
+    </div><div class="tag" data-v-2cfc33fb>
+      绝境战
+    </div><div class="tag" data-v-2cfc33fb>
+      团队任务
+    </div></div> <ul class="duty-list" data-v-2cfc33fb><li data-v-2cfc33fb><a href="/duty/4.htm" data-v-2cfc33fb>
+        [15] 天然要害沙斯塔夏溶洞
+      </a></li><li data-v-2cfc33fb><a href="/duty/2.htm" data-v-2cfc33fb>
+        [16] 地下灵殿塔姆·塔拉墓园
+      </a></li><li data-v-2cfc33fb><a href="/duty/3.htm" data-v-2cfc33fb>
+        [17] 封锁坑道铜铃铜山
+      </a></li><li data-v-2cfc33fb><a href="/duty/7.htm" data-v-2cfc33fb>
+        [20] 魔兽领域日影地修炼所
+      </a></li><li data-v-2cfc33fb><a href="/duty/1.htm" data-v-2cfc33fb>
+        [24] 监狱废墟托托·拉克千狱
+      </a></li><li data-v-2cfc33fb><a href="/duty/6.htm" data-v-2cfc33fb>
+        [28] 名门府邸静语庄园
+      </a></li><li data-v-2cfc33fb><a href="/duty/8.htm" data-v-2cfc33fb>
+        [32] 休养胜地布雷福洛克斯野营地
+      </a></li><li data-v-2cfc33fb><a href="/duty/9.htm" data-v-2cfc33fb>
+        [35] 古代遗迹喀恩埋没圣堂
+      </a></li><li data-v-2cfc33fb><a href="/duty/12.htm" data-v-2cfc33fb>
+        [38] 流沙迷宫樵鸣洞
+      </a></li><li data-v-2cfc33fb><a href="/duty/11.htm" data-v-2cfc33fb>
+        [41] 对龙城塞石卫塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/13.htm" data-v-2cfc33fb>
+        [44] 山中战线泽梅尔要塞
+      </a></li><li data-v-2cfc33fb><a href="/duty/5.htm" data-v-2cfc33fb>
+        [47] 毒雾洞窟黄金谷
+      </a></li><li data-v-2cfc33fb><a href="/duty/10.htm" data-v-2cfc33fb>
+        [50] 神灵圣域放浪神古神殿
+      </a></li><li data-v-2cfc33fb><a href="/duty/15.htm" data-v-2cfc33fb>
+        [50] 帝国南方堡外围激战
+      </a></li><li data-v-2cfc33fb><a href="/duty/16.htm" data-v-2cfc33fb>
+        [50] 天幕魔导城最终决战
+      </a></li><li data-v-2cfc33fb><a href="/duty/14.htm" data-v-2cfc33fb>
+        [50] 邪教驻地无限城古堡
+      </a></li><li data-v-2cfc33fb><a href="/duty/17.htm" data-v-2cfc33fb>
+        [50] 领航明灯天狼星灯塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/18.htm" data-v-2cfc33fb>
+        [50] 骚乱坑道铜铃铜山
+      </a></li><li data-v-2cfc33fb><a href="/duty/19.htm" data-v-2cfc33fb>
+        [50] 恶灵府邸静语庄园
+      </a></li><li data-v-2cfc33fb><a href="/duty/22.htm" data-v-2cfc33fb>
+        [50] 腐坏遗迹无限城市街古迹
+      </a></li><li data-v-2cfc33fb><a href="/duty/21.htm" data-v-2cfc33fb>
+        [50] 剑斗领域日影地修炼所
+      </a></li><li data-v-2cfc33fb><a href="/duty/20.htm" data-v-2cfc33fb>
+        [50] 纷争要地布雷福洛克斯野营地
+      </a></li><li data-v-2cfc33fb><a href="/duty/23.htm" data-v-2cfc33fb>
+        [50] 财宝传说破舰岛
+      </a></li><li data-v-2cfc33fb><a href="/duty/24.htm" data-v-2cfc33fb>
+        [50] 惨剧灵殿塔姆·塔拉墓园
+      </a></li><li data-v-2cfc33fb><a href="/duty/25.htm" data-v-2cfc33fb>
+        [50] 激战城塞石卫塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/27.htm" data-v-2cfc33fb>
+        [50] 凛冽洞天披雪大冰壁
+      </a></li><li data-v-2cfc33fb><a href="/duty/28.htm" data-v-2cfc33fb>
+        [50] 逆转要害沙斯塔夏溶洞
+      </a></li><li data-v-2cfc33fb><a href="/duty/26.htm" data-v-2cfc33fb>
+        [50] 苏醒遗迹喀恩埋没圣堂
+      </a></li><li data-v-2cfc33fb><a href="/duty/32.htm" data-v-2cfc33fb>
+        [50] 幻龙残骸密约之塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/30.htm" data-v-2cfc33fb>
+        [50] 武装圣域放浪神古神殿
+      </a></li><li data-v-2cfc33fb><a href="/duty/29.htm" data-v-2cfc33fb>
+        [50] 邪念妖地无限城古堡
+      </a></li><li data-v-2cfc33fb><a href="/duty/36.htm" data-v-2cfc33fb>
+        [51] 冰雪废堡暮卫塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/37.htm" data-v-2cfc33fb>
+        [53] 天山绝顶索姆阿尔灵峰
+      </a></li><li data-v-2cfc33fb><a href="/duty/39.htm" data-v-2cfc33fb>
+        [55] 邪龙王座龙巢神殿
+      </a></li><li data-v-2cfc33fb><a href="/duty/34.htm" data-v-2cfc33fb>
+        [57] 圣教中枢伊修加德教皇厅
+      </a></li><li data-v-2cfc33fb><a href="/duty/31.htm" data-v-2cfc33fb>
+        [59] 学识宝库迦巴勒幻想图书馆
+      </a></li><li data-v-2cfc33fb><a href="/duty/38.htm" data-v-2cfc33fb>
+        [60] 血战苍穹魔科学研究所
+      </a></li><li data-v-2cfc33fb><a href="/duty/33.htm" data-v-2cfc33fb>
+        [60] 空中神域不获岛
+      </a></li><li data-v-2cfc33fb><a href="/duty/35.htm" data-v-2cfc33fb>
+        [60] 博物战舰无限回廊
+      </a></li><li data-v-2cfc33fb><a href="/duty/41.htm" data-v-2cfc33fb>
+        [60] 草木庭园圣茉夏娜植物园
+      </a></li><li data-v-2cfc33fb><a href="/duty/40.htm" data-v-2cfc33fb>
+        [60] 地脉灵灯天狼星灯塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/141.htm" data-v-2cfc33fb>
+        [60] 星海空间颠倒塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/140.htm" data-v-2cfc33fb>
+        [60] 神圣遗迹无限城市街古迹
+      </a></li><li data-v-2cfc33fb><a href="/duty/171.htm" data-v-2cfc33fb>
+        [60] 天龙宫殿忆罪宫
+      </a></li><li data-v-2cfc33fb><a href="/duty/172.htm" data-v-2cfc33fb>
+        [60] 黑涡传说破舰岛
+      </a></li><li data-v-2cfc33fb><a href="/duty/182.htm" data-v-2cfc33fb>
+        [60] 险峻峡谷塞尔法特尔溪谷
+      </a></li><li data-v-2cfc33fb><a href="/duty/196.htm" data-v-2cfc33fb>
+        [60] 秘本宝库迦巴勒幻想图书馆
+      </a></li><li data-v-2cfc33fb><a href="/duty/219.htm" data-v-2cfc33fb>
+        [60] 坚牢铁壁巴埃萨长城
+      </a></li><li data-v-2cfc33fb><a href="/duty/221.htm" data-v-2cfc33fb>
+        [60] 天山深境索姆阿尔灵峰
+      </a></li><li data-v-2cfc33fb><a href="/duty/238.htm" data-v-2cfc33fb>
+        [61] 漂流海域妖歌海
+      </a></li><li data-v-2cfc33fb><a href="/duty/235.htm" data-v-2cfc33fb>
+        [63] 海底宫殿紫水宫
+      </a></li><li data-v-2cfc33fb><a href="/duty/240.htm" data-v-2cfc33fb>
+        [65] 试炼行路巴儿达木霸道
+      </a></li><li data-v-2cfc33fb><a href="/duty/241.htm" data-v-2cfc33fb>
+        [67] 解放决战多玛王城
+      </a></li><li data-v-2cfc33fb><a href="/duty/242.htm" data-v-2cfc33fb>
+        [69] 巨炮要塞帝国白山堡
+      </a></li><li data-v-2cfc33fb><a href="/duty/247.htm" data-v-2cfc33fb>
+        [70] 鏖战红莲阿拉米格
+      </a></li><li data-v-2cfc33fb><a href="/duty/262.htm" data-v-2cfc33fb>
+        [70] 恶党孤城黄金阁
+      </a></li><li data-v-2cfc33fb><a href="/duty/236.htm" data-v-2cfc33fb>
+        [70] 修行古刹星导寺
+      </a></li><li data-v-2cfc33fb><a href="/duty/279.htm" data-v-2cfc33fb>
+        [70] 沉没神殿斯卡拉遗迹
+      </a></li><li data-v-2cfc33fb><a href="/duty/284.htm" data-v-2cfc33fb>
+        [70] 红玉火山狱之盖
+      </a></li><li data-v-2cfc33fb><a href="/duty/285.htm" data-v-2cfc33fb>
+        [70] 疯狂战舰无限回廊
+      </a></li><li data-v-2cfc33fb><a href="/duty/536.htm" data-v-2cfc33fb>
+        [70] 风水灵庙岩燕庙
+      </a></li><li data-v-2cfc33fb><a href="/duty/585.htm" data-v-2cfc33fb>
+        [70] 死亡大地终末焦土
+      </a></li><li data-v-2cfc33fb><a href="/duty/584.htm" data-v-2cfc33fb>
+        [70] 污染庭园圣茉夏娜植物园
+      </a></li><li data-v-2cfc33fb><a href="/duty/611.htm" data-v-2cfc33fb>
+        [70] 国境战线基姆利特暗区
+      </a></li><li data-v-2cfc33fb><a href="/duty/676.htm" data-v-2cfc33fb>
+        [71] 遇袭集落水滩村
+      </a></li><li data-v-2cfc33fb><a href="/duty/649.htm" data-v-2cfc33fb>
+        [73] 水妖幻园多恩美格禁园
+      </a></li><li data-v-2cfc33fb><a href="/duty/651.htm" data-v-2cfc33fb>
+        [75] 文明古迹奇坦那神影洞
+      </a></li><li data-v-2cfc33fb><a href="/duty/656.htm" data-v-2cfc33fb>
+        [77] 避暑离宫马利卡大井
+      </a></li><li data-v-2cfc33fb><a href="/duty/659.htm" data-v-2cfc33fb>
+        [79] 伪造天界格鲁格火山
+      </a></li><li data-v-2cfc33fb><a href="/duty/652.htm" data-v-2cfc33fb>
+        [80] 末日暗影亚马乌罗提
+      </a></li><li data-v-2cfc33fb><a href="/duty/655.htm" data-v-2cfc33fb>
+        [80] 异界遗构希尔科斯孪晶塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/661.htm" data-v-2cfc33fb>
+        [80] 创造机构阿尼德罗学院
+      </a></li><li data-v-2cfc33fb><a href="/duty/692.htm" data-v-2cfc33fb>
+        [80] 魔法宫殿宇宙宫
+      </a></li><li data-v-2cfc33fb><a href="/duty/714.htm" data-v-2cfc33fb>
+        [80] 黑风海底阿尼德罗追忆馆
+      </a></li><li data-v-2cfc33fb><a href="/duty/737.htm" data-v-2cfc33fb>
+        [80] 暗影决战诺弗兰特
+      </a></li><li data-v-2cfc33fb><a href="/duty/746.htm" data-v-2cfc33fb>
+        [80] 魔术工房玛托雅工作室
+      </a></li><li data-v-2cfc33fb><a href="/duty/56.htm" data-v-2cfc33fb>
+        [20] 伊弗利特讨伐战
+      </a></li><li data-v-2cfc33fb><a href="/duty/57.htm" data-v-2cfc33fb>
+        [34] 泰坦讨伐战
+      </a></li><li data-v-2cfc33fb><a href="/duty/58.htm" data-v-2cfc33fb>
+        [44] 迦楼罗讨伐战
+      </a></li><li data-v-2cfc33fb><a href="/duty/62.htm" data-v-2cfc33fb>
+        [49] 里塔提恩强攻战
+      </a></li><li data-v-2cfc33fb><a href="/duty/84.htm" data-v-2cfc33fb>
+        [50] 那布里亚勒斯讨伐战
+      </a></li><li data-v-2cfc33fb><a href="/duty/83.htm" data-v-2cfc33fb>
+        [50] 皇都伊修加德保卫战
+      </a></li><li data-v-2cfc33fb><a href="/duty/74.htm" data-v-2cfc33fb>
+        [50] 死化奇美拉讨伐战
+      </a></li><li data-v-2cfc33fb><a href="/duty/75.htm" data-v-2cfc33fb>
+        [50] 海德拉讨伐战
+      </a></li><li data-v-2cfc33fb><a href="/duty/76.htm" data-v-2cfc33fb>
+        [50] 大桥上的决斗
+      </a></li><li data-v-2cfc33fb><a href="/duty/81.htm" data-v-2cfc33fb>
+        [50] 艾玛吉娜杯斗技大会决赛
+      </a></li><li data-v-2cfc33fb><a href="/duty/85.htm" data-v-2cfc33fb>
+        [50] 无限城的死斗
+      </a></li><li data-v-2cfc33fb><a href="/duty/59.htm" data-v-2cfc33fb>
+        [50] 伊弗利特歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/61.htm" data-v-2cfc33fb>
+        [50] 迦楼罗歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/60.htm" data-v-2cfc33fb>
+        [50] 泰坦歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/66.htm" data-v-2cfc33fb>
+        [50] 莫古力贤王歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/72.htm" data-v-2cfc33fb>
+        [50] 利维亚桑歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/77.htm" data-v-2cfc33fb>
+        [50] 拉姆歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/79.htm" data-v-2cfc33fb>
+        [50] 希瓦歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/82.htm" data-v-2cfc33fb>
+        [50] 奥丁歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/68.htm" data-v-2cfc33fb>
+        [50] 究极神兵破坏作战
+      </a></li><li data-v-2cfc33fb><a href="/duty/65.htm" data-v-2cfc33fb>
+        [50] 迦楼罗歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/64.htm" data-v-2cfc33fb>
+        [50] 泰坦歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/63.htm" data-v-2cfc33fb>
+        [50] 伊弗利特歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/67.htm" data-v-2cfc33fb>
+        [50] 莫古力贤王歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/73.htm" data-v-2cfc33fb>
+        [50] 利维亚桑歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/78.htm" data-v-2cfc33fb>
+        [50] 拉姆歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/80.htm" data-v-2cfc33fb>
+        [50] 希瓦歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/86.htm" data-v-2cfc33fb>
+        [53] 罗波那歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/88.htm" data-v-2cfc33fb>
+        [57] 俾斯麦歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/90.htm" data-v-2cfc33fb>
+        [60] 圆桌骑士歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/169.htm" data-v-2cfc33fb>
+        [60] 尼德霍格征龙战
+      </a></li><li data-v-2cfc33fb><a href="/duty/134.htm" data-v-2cfc33fb>
+        [60] 萨菲洛特歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/183.htm" data-v-2cfc33fb>
+        [60] 索菲娅歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/223.htm" data-v-2cfc33fb>
+        [60] 祖尔宛歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/89.htm" data-v-2cfc33fb>
+        [60] 俾斯麦歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/87.htm" data-v-2cfc33fb>
+        [60] 罗波那歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/91.htm" data-v-2cfc33fb>
+        [60] 圆桌骑士幻想歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/170.htm" data-v-2cfc33fb>
+        [60] 尼德霍格传奇征龙战
+      </a></li><li data-v-2cfc33fb><a href="/duty/135.htm" data-v-2cfc33fb>
+        [60] 萨菲洛特歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/184.htm" data-v-2cfc33fb>
+        [60] 索菲娅歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/224.htm" data-v-2cfc33fb>
+        [60] 祖尔宛歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/243.htm" data-v-2cfc33fb>
+        [63] 须佐之男歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/263.htm" data-v-2cfc33fb>
+        [67] 吉祥天女歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/239.htm" data-v-2cfc33fb>
+        [70] 神龙歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/537.htm" data-v-2cfc33fb>
+        [70] 月读歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/595.htm" data-v-2cfc33fb>
+        [70] 保镖歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/474.htm" data-v-2cfc33fb>
+        [70] 火龙狩猎战
+      </a></li><li data-v-2cfc33fb><a href="/duty/290.htm" data-v-2cfc33fb>
+        [70] 白虎镇魂战
+      </a></li><li data-v-2cfc33fb><a href="/duty/596.htm" data-v-2cfc33fb>
+        [70] 朱雀镇魂战
+      </a></li><li data-v-2cfc33fb><a href="/duty/637.htm" data-v-2cfc33fb>
+        [70] 青龙镇魂战
+      </a></li><li data-v-2cfc33fb><a href="/duty/244.htm" data-v-2cfc33fb>
+        [70] 须佐之男歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/264.htm" data-v-2cfc33fb>
+        [70] 吉祥天女歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/278.htm" data-v-2cfc33fb>
+        [70] 神龙梦幻歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/538.htm" data-v-2cfc33fb>
+        [70] 月读幽夜歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/475.htm" data-v-2cfc33fb>
+        [70] 火龙上位狩猎战
+      </a></li><li data-v-2cfc33fb><a href="/duty/291.htm" data-v-2cfc33fb>
+        [70] 白虎诗魂战
+      </a></li><li data-v-2cfc33fb><a href="/duty/597.htm" data-v-2cfc33fb>
+        [70] 朱雀诗魂战
+      </a></li><li data-v-2cfc33fb><a href="/duty/638.htm" data-v-2cfc33fb>
+        [70] 青龙诗魂战
+      </a></li><li data-v-2cfc33fb><a href="/duty/657.htm" data-v-2cfc33fb>
+        [73] 缇坦妮雅歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/666.htm" data-v-2cfc33fb>
+        [79] 无瑕灵君歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/687.htm" data-v-2cfc33fb>
+        [80] 哈迪斯歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/717.htm" data-v-2cfc33fb>
+        [80] 红宝石神兵破坏作战
+      </a></li><li data-v-2cfc33fb><a href="/duty/738.htm" data-v-2cfc33fb>
+        [80] 光之战士歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/762.htm" data-v-2cfc33fb>
+        [80] 绿宝石神兵破坏作战
+      </a></li><li data-v-2cfc33fb><a href="/duty/658.htm" data-v-2cfc33fb>
+        [80] 缇坦妮雅歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/667.htm" data-v-2cfc33fb>
+        [80] 无瑕灵君歼殛战
+      </a></li><li data-v-2cfc33fb><a href="/duty/693.htm" data-v-2cfc33fb>
+        [80] 哈迪斯孤念歼灭战
+      </a></li><li data-v-2cfc33fb><a href="/duty/718.htm" data-v-2cfc33fb>
+        [80] 红宝石神兵狂想作战
+      </a></li><li data-v-2cfc33fb><a href="/duty/725.htm" data-v-2cfc33fb>
+        [80] 博兹雅堡垒追忆战
+      </a></li><li data-v-2cfc33fb><a href="/duty/739.htm" data-v-2cfc33fb>
+        [80] 光之战士幻耀歼灭战
+      </a></li><li data-v-2cfc33fb><span data-id="757" class="grayout" data-v-2cfc33fb>
+        [80] 泰坦幻巧战 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/763.htm" data-v-2cfc33fb>
+        [80] 绿宝石神兵狂想作战
+      </a></li><li data-v-2cfc33fb><a href="/duty/92.htm" data-v-2cfc33fb>
+        [50] 水晶塔 古代人迷宫
+      </a></li><li data-v-2cfc33fb><a href="/duty/102.htm" data-v-2cfc33fb>
+        [50] 水晶塔 希尔科斯塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/111.htm" data-v-2cfc33fb>
+        [50] 水晶塔 暗之世界
+      </a></li><li data-v-2cfc33fb><span data-id="93" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 邂逅之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="94" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 邂逅之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/95.htm" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 邂逅之章3
+      </a></li><li data-v-2cfc33fb><span data-id="96" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 邂逅之章4 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/97.htm" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 邂逅之章5
+      </a></li><li data-v-2cfc33fb><span data-id="98" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 入侵之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="99" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 入侵之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="100" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 入侵之章3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/101.htm" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 入侵之章4
+      </a></li><li data-v-2cfc33fb><span data-id="107" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 真源之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="108" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 真源之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="109" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 真源之章3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/110.htm" data-v-2cfc33fb>
+        [50] 巴哈姆特大迷宫 真源之章4
+      </a></li><li data-v-2cfc33fb><span data-id="103" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特零式大迷宫 入侵之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="104" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特零式大迷宫 入侵之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="105" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特零式大迷宫 入侵之章3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="106" class="grayout" data-v-2cfc33fb>
+        [50] 巴哈姆特零式大迷宫 入侵之章4 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/120.htm" data-v-2cfc33fb>
+        [60] 魔航船虚无方舟
+      </a></li><li data-v-2cfc33fb><a href="/duty/168.htm" data-v-2cfc33fb>
+        [60] 禁忌城邦玛哈
+      </a></li><li data-v-2cfc33fb><a href="/duty/220.htm" data-v-2cfc33fb>
+        [60] 影之国
+      </a></li><li data-v-2cfc33fb><a href="/duty/112.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 启动之章1
+      </a></li><li data-v-2cfc33fb><a href="/duty/113.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 启动之章2
+      </a></li><li data-v-2cfc33fb><a href="/duty/114.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 启动之章3
+      </a></li><li data-v-2cfc33fb><a href="/duty/115.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 启动之章4
+      </a></li><li data-v-2cfc33fb><a href="/duty/136.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 律动之章1
+      </a></li><li data-v-2cfc33fb><a href="/duty/137.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 律动之章2
+      </a></li><li data-v-2cfc33fb><a href="/duty/138.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 律动之章3
+      </a></li><li data-v-2cfc33fb><a href="/duty/139.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 律动之章4
+      </a></li><li data-v-2cfc33fb><a href="/duty/186.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 天动之章1
+      </a></li><li data-v-2cfc33fb><a href="/duty/187.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 天动之章2
+      </a></li><li data-v-2cfc33fb><a href="/duty/188.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 天动之章3
+      </a></li><li data-v-2cfc33fb><a href="/duty/189.htm" data-v-2cfc33fb>
+        [60] 亚历山大机神城 天动之章4
+      </a></li><li data-v-2cfc33fb><span data-id="116" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 启动之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="117" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 启动之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="118" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 启动之章3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/119.htm" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 启动之章4
+      </a></li><li data-v-2cfc33fb><span data-id="147" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 律动之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="148" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 律动之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="149" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 律动之章3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/150.htm" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 律动之章4
+      </a></li><li data-v-2cfc33fb><span data-id="190" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 天动之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="191" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 天动之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="192" class="grayout" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 天动之章3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/193.htm" data-v-2cfc33fb>
+        [60] 亚历山大零式机神城 天动之章4
+      </a></li><li data-v-2cfc33fb><a href="/duty/281.htm" data-v-2cfc33fb>
+        [70] 失落之都拉巴纳斯塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/550.htm" data-v-2cfc33fb>
+        [70] 封闭圣塔黎铎拉纳大灯塔
+      </a></li><li data-v-2cfc33fb><a href="/duty/636.htm" data-v-2cfc33fb>
+        [70] 乐欲之所瓯博讷修道院
+      </a></li><li data-v-2cfc33fb><a href="/duty/252.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 德尔塔幻境1
+      </a></li><li data-v-2cfc33fb><a href="/duty/253.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 德尔塔幻境2
+      </a></li><li data-v-2cfc33fb><a href="/duty/254.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 德尔塔幻境3
+      </a></li><li data-v-2cfc33fb><a href="/duty/255.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 德尔塔幻境4
+      </a></li><li data-v-2cfc33fb><a href="/duty/286.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 西格玛幻境1
+      </a></li><li data-v-2cfc33fb><a href="/duty/287.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 西格玛幻境2
+      </a></li><li data-v-2cfc33fb><a href="/duty/288.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 西格玛幻境3
+      </a></li><li data-v-2cfc33fb><a href="/duty/289.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 西格玛幻境4
+      </a></li><li data-v-2cfc33fb><a href="/duty/587.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 阿尔法幻境1
+      </a></li><li data-v-2cfc33fb><a href="/duty/588.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 阿尔法幻境2
+      </a></li><li data-v-2cfc33fb><a href="/duty/589.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 阿尔法幻境3
+      </a></li><li data-v-2cfc33fb><a href="/duty/590.htm" data-v-2cfc33fb>
+        [70] 欧米茄时空狭缝 阿尔法幻境4
+      </a></li><li data-v-2cfc33fb><span data-id="256" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 德尔塔幻境1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="257" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 德尔塔幻境2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="258" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 德尔塔幻境3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="259" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 德尔塔幻境4 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="292" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 西格玛幻境1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="293" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 西格玛幻境2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="294" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 西格玛幻境3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="295" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 西格玛幻境4 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="591" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 阿尔法幻境1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="592" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 阿尔法幻境2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="593" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 阿尔法幻境3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="594" class="grayout" data-v-2cfc33fb>
+        [70] 欧米茄零式时空狭缝 阿尔法幻境4 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/700.htm" data-v-2cfc33fb>
+        [80] 复制工厂废墟
+      </a></li><li data-v-2cfc33fb><a href="/duty/736.htm" data-v-2cfc33fb>
+        [80] 人偶军事基地
+      </a></li><li data-v-2cfc33fb><a href="/duty/653.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 觉醒之章1
+      </a></li><li data-v-2cfc33fb><a href="/duty/684.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 觉醒之章2
+      </a></li><li data-v-2cfc33fb><a href="/duty/682.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 觉醒之章3
+      </a></li><li data-v-2cfc33fb><a href="/duty/689.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 觉醒之章4
+      </a></li><li data-v-2cfc33fb><a href="/duty/715.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 共鸣之章1
+      </a></li><li data-v-2cfc33fb><a href="/duty/719.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 共鸣之章2
+      </a></li><li data-v-2cfc33fb><a href="/duty/726.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 共鸣之章3
+      </a></li><li data-v-2cfc33fb><a href="/duty/728.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 共鸣之章4
+      </a></li><li data-v-2cfc33fb><a href="/duty/749.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 再生之章1
+      </a></li><li data-v-2cfc33fb><a href="/duty/747.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 再生之章2
+      </a></li><li data-v-2cfc33fb><a href="/duty/751.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 再生之章3
+      </a></li><li data-v-2cfc33fb><a href="/duty/758.htm" data-v-2cfc33fb>
+        [80] 伊甸希望乐园 再生之章4
+      </a></li><li data-v-2cfc33fb><span data-id="654" class="grayout" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 觉醒之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="685" class="grayout" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 觉醒之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="683" class="grayout" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 觉醒之章3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/690.htm" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 觉醒之章4
+      </a></li><li data-v-2cfc33fb><span data-id="716" class="grayout" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 共鸣之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="720" class="grayout" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 共鸣之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="727" class="grayout" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 共鸣之章3 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/729.htm" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 共鸣之章4
+      </a></li><li data-v-2cfc33fb><span data-id="750" class="grayout" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 再生之章1 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><span data-id="748" class="grayout" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 再生之章2 (暂无攻略)
+      </span></li><li data-v-2cfc33fb><a href="/duty/752.htm" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 再生之章3
+      </a></li><li data-v-2cfc33fb><a href="/duty/759.htm" data-v-2cfc33fb>
+        [80] 伊甸零式希望乐园 再生之章4
+      </a></li><li data-v-2cfc33fb><a href="/duty/280.htm" data-v-2cfc33fb>
+        [70] 巴哈姆特绝境战
+      </a></li><li data-v-2cfc33fb><a href="/duty/539.htm" data-v-2cfc33fb>
+        [70] 究极神兵绝境战
+      </a></li><li data-v-2cfc33fb><a href="/duty/694.htm" data-v-2cfc33fb>
+        [80] 亚历山大绝境战
+      </a></li></ul></div></div></div></div> <div class="page-pager"><div class="left"><a href="/advanced/macro-intro.htm"><i class="caret left icon"></i> 宏指南
+    </a></div> <div class="right"><a href="/advanced/currency.htm"><i class="caret right icon"></i> 货币系统
+    </a></div> <div class="clear"></div></div></div> <!----> <div class="footer-container"><div class="colored-footer"><div class="status-line"><a target="_blank" rel="noopener noreferer" href="https://github.com/thewakingsands/novice-network/blame/master/docs/duty/README.md">
+        修订历史
+      </a>
+      |
+      <a target="_blank" rel="noopener noreferer" href="https://github.com/thewakingsands/novice-network/edit/master/docs/duty/README.md">
+        编辑本页
+      </a>
+      |
+      <a target="_blank" rel="noopener noreferer" href="https://i.duotai.net/forms/zxjg2/wh956yns?url=duty/README.md">
+        反馈问题
+      </a>
+      |
+      <a href="/about"> 关于&amp;捐赠 </a></div> <div class="status-line">
+      《新大陆见闻录》是<a href="https://ffcafe.org/" target="_blank">肥肥咖啡</a>的一个子项目，欢迎<a href="https://ffcafe.org/join-us/">加入我们</a>！
+    </div> <a href="https://github.com/thewakingsands/novice-network/actions/workflows/pages.yml" rel="noopener noreferer" target="_blank"><img src="https://github.com/thewakingsands/novice-network/actions/workflows/pages.yml/badge.svg" referrerpolicy="no-referrer"></a> <a href="https://vuepress.vuejs.org/" rel="noopener noreferer" target="_blank"><img src="https://img.shields.io/badge/generator-VuePress-46b683" referrerpolicy="no-referrer"></a></div> <div class="copyright-line copyright-se">
+      FINAL FANTASY XIV © 2010 - 2020 SQUARE ENIX CO., LTD. All Rights
+      Reserved.
+      <a href="/takedown">
+        Reporting Copyright Infringement(版权投诉)
+      </a></div></div></div></div> <div class="nav-menu"><div class="nav-container"><div class="menus"><div class="ui vertical inverted menu menu-list"><div class="item header expand"><!----> <div class="menu"><a href="/" class="item router-link-active"><!----> <!----> <!----> <span>首页</span></a> </div></div><div class="item header"><div class="title">
+          入坑准备 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/before/pay.htm" class="item"><!----> <!----> <!----> <span>收费方式及福利</span></a><a href="/before/world.htm" class="item"><!----> <!----> <!----> <span>游戏背景介绍</span></a><a href="/before/char.htm" class="item"><!----> <!----> <!----> <span>下载选服与捏人</span></a><a href="/before/job.htm" class="item"><!----> <!----> <!----> <span>职业选择</span></a> </div></div><div class="item header"><div class="title">
+          新人指南 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/basic/core.htm" class="item"><!----> <!----> <!----> <span>新人必知</span></a><a href="/basic/item.htm" class="item"><!----> <!----> <!----> <span>道具与背包</span></a><a href="/basic/equip.htm" class="item"><!----> <!----> <!----> <span>装备介绍</span></a><a href="/basic/battle.htm" class="item has-children"><!----> <!----> <!----> <span>战斗与副本</span></a><a href="/basic/battle.htm" class="item indent-1"><!----> <!----> <!----> <span>概览</span></a><a href="/basic/battle-mech.htm" class="item indent-1"><!----> <!----> <!----> <span>战斗机制</span></a><a href="/basic/dungeon.htm" class="item indent-1"><!----> <!----> <!----> <span>副本介绍</span></a><a href="/basic/dummy.htm" class="item indent-1"><!----> <!----> <!----> <span>木桩&amp;木人</span></a><a href="/basic/levelup.htm" class="item"><!----> <!----> <!----> <span>练级指南</span></a><a href="/basic/config.htm" class="item"><!----> <!----> <!----> <span>常用设置及热键</span></a><a href="/basic/quest.htm" class="item"><!----> <!----> <!----> <span>任务分类及重要支线</span></a><a href="/basic/map.htm" class="item"><!----> <!----> <!----> <span>地图移动与飞行</span></a> </div></div><div class="item header"><div class="title">
+          进阶指南 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/advanced/glossary.htm" class="item visible"><!----> <!----> <!----> <span>黑话缩略语词典</span></a><a href="/advanced/macro-intro.htm" class="item has-children visible"><!----> <!----> <!----> <span>宏指南</span></a><a href="/advanced/macro-intro.htm" class="item indent-1"><!----> <!----> <!----> <span>概览</span></a><a href="/advanced/macrology-1.htm" class="item indent-1"><!----> <!----> <!----> <span>宏学上 宏基础</span></a><a href="/advanced/macrology-2.htm" class="item indent-1"><!----> <!----> <!----> <span>宏学中 宏进阶</span></a><a href="/advanced/macrology-3.htm" class="item indent-1"><!----> <!----> <!----> <span>宏学下 宏拾遗</span></a><a href="/duty/" class="item router-link-exact-active router-link-active active visible"><!----> <!----> <!----> <span>副本攻略</span></a><a href="/advanced/currency.htm" class="item visible"><!----> <!----> <!----> <span>货币系统</span></a><a href="/basic/bis.htm" class="item visible"><!----> <!----> <!----> <span>毕业装备</span></a> </div></div><div class="item header"><div class="title">
+          战斗玩法 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/topic/battle.htm" class="item"><!----> <!----> <!----> <span>休闲赚钱</span></a><a href="/topic/hunt.htm" class="item"><!----> <!----> <!----> <span>怪物狩猎</span></a><a href="/topic/raid.htm" class="item"><!----> <!----> <!----> <span>挑战副本</span></a><a href="/topic/pvp.htm" class="item"><!----> <!----> <!----> <span>PVP</span></a><a href="/topic/shine.htm" class="item has-children"><!----> <!----> <!----> <span>发光武器</span></a><a href="/topic/shine.htm" class="item indent-1"><!----> <!----> <!----> <span>概览</span></a><a href="/topic/relic.htm" class="item indent-1"><!----> <!----> <!----> <span>上古、黄道武器(古武)</span></a><a href="/topic/anima.htm" class="item indent-1"><!----> <!----> <!----> <span>元灵武器(魂武)</span></a><a href="/topic/eureka-weapon.htm" class="item indent-1"><!----> <!----> <!----> <span>禁地兵装(优武)</span></a><a href="/topic/resistance.htm" class="item indent-1"><!----> <!----> <!----> <span>义军武器(女王之刃)</span></a><a href="/job/bluemage.htm" class="item"><!----> <!----> <!----> <span>青魔法师</span></a> </div></div><div class="item header"><div class="title">
+          特殊战斗区域 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/topic/dd.htm" class="item"><!----> <!----> <!----> <span>深层迷宫</span></a><a href="/topic/eureka.htm" class="item has-children"><!----> <!----> <!----> <span>禁地优雷卡</span></a><a href="/topic/eureka.htm" class="item indent-1"><!----> <!----> <!----> <span>基本情报</span></a><a href="/topic/eureka/anemos.htm" class="item indent-1"><!----> <!----> <!----> <span>常风之地</span></a><a href="/topic/eureka/pagos.htm" class="item indent-1"><!----> <!----> <!----> <span>恒冰之地</span></a><a href="/topic/eureka/pyros.htm" class="item indent-1"><!----> <!----> <!----> <span>涌火之地</span></a><a href="/topic/eureka/hydatos.htm" class="item indent-1"><!----> <!----> <!----> <span>丰水之地</span></a><a href="/topic/eureka-weapon.htm" class="item indent-1"><!----> <!----> <!----> <span>优雷卡武器</span></a><a href="/topic/bozjan.htm" class="item"><!----> <!----> <!----> <span>南方博兹雅战线</span></a> </div></div><div class="item header"><div class="title">
+          休闲玩法及日常 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/topic/daily.htm" class="item"><!----> <!----> <!----> <span>每日/每周任务</span></a><a href="/topic/story.htm" class="item"><!----> <!----> <!----> <span>剧情任务</span></a><a href="/topic/goldsaucer.htm" class="item has-children"><!----> <!----> <!----> <span>金碟游乐场</span></a><a href="/topic/goldsaucer.htm" class="item indent-1"><!----> <!----> <!----> <span>概览</span></a><a href="/topic/gs-gate.htm" class="item indent-1"><!----> <!----> <!----> <span>机遇临门</span></a><a href="/topic/gs-minigame.htm" class="item indent-1"><!----> <!----> <!----> <span>迷你小游戏</span></a><a href="/topic/gs-cactpot.htm" class="item indent-1"><!----> <!----> <!----> <span>仙人彩</span></a><a href="/topic/gs-fashion.htm" class="item indent-1"><!----> <!----> <!----> <span>时尚品鉴</span></a><a href="/topic/triple-triad.htm" class="item indent-1"><!----> <!----> <!----> <span>九宫幻卡</span></a><a href="/topic/gs-race.htm" class="item indent-1"><!----> <!----> <!----> <span>陆行鸟竞赛</span></a><a href="/topic/gs-mahjong.htm" class="item indent-1"><!----> <!----> <!----> <span>多玛方城战</span></a><a href="/topic/gs-minion.htm" class="item indent-1"><!----> <!----> <!----> <span>萌宠之王</span></a><a href="/topic/relax.htm" class="item"><!----> <!----> <!----> <span>休闲活动</span></a> </div></div><div class="item header"><div class="title">
+          其他玩法系统 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/topic/craft.htm" class="item has-children"><!----> <!----> <!----> <span>能工巧匠（制作）</span></a><a href="/topic/craft.htm" class="item indent-1"><!----> <!----> <!----> <span>概览</span></a><a href="/topic/craft-action.htm" class="item indent-1"><!----> <!----> <!----> <span>技能介绍</span></a><a href="/topic/craft-levelup.htm" class="item indent-1"><!----> <!----> <!----> <span>练级指南</span></a><a href="/topic/gather.htm" class="item has-children"><!----> <!----> <!----> <span>大地使者（采集）</span></a><a href="/topic/gather.htm" class="item indent-1"><!----> <!----> <!----> <span>概览</span></a><a href="/topic/gather-levelup.htm" class="item indent-1"><!----> <!----> <!----> <span>练级指南</span></a><a href="/topic/fisher.htm" class="item indent-1"><!----> <!----> <!----> <span>钓鱼指南</span></a><a href="/topic/ocean-fishing.htm" class="item indent-1"><!----> <!----> <!----> <span>海钓手册</span></a><a href="/advanced/retainer.htm" class="item"><!----> <!----> <!----> <span>雇员系统</span></a><a href="/advanced/grandCompany.htm" class="item"><!----> <!----> <!----> <span>大国防联军</span></a><a href="/advanced/fate.htm" class="item"><!----> <!----> <!----> <span>临危受命（FATE）</span></a> </div></div><div class="item header"><div class="title">
+          界面指南 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/ui/how.htm" class="item"><!----> <!----> <!----> <span>基础指南</span></a><a href="/ui/know.htm" class="item"><!----> <!----> <!----> <span>掌握UI</span></a><a href="/ui/faq.htm" class="item"><!----> <!----> <!----> <span>常见问题</span></a><a href="/ui/equipment.htm" class="item"><!----> <!----> <!----> <span>装备和道具</span></a><a href="/ui/item.htm" class="item"><!----> <!----> <!----> <span>买入卖出</span></a><a href="/ui/communication.htm" class="item"><!----> <!----> <!----> <span>玩家交流</span></a><a href="/ui/currency.htm" class="item"><!----> <!----> <!----> <span>神典石</span></a><a href="/ui/battle.htm" class="item"><!----> <!----> <!----> <span>战斗界面</span></a> </div></div><div class="item header"><div class="title">
+          其他 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/topic/other.htm" class="item"><!----> <!----> <!----> <span>周边衍生</span></a><a href="/basic/international.htm" class="item"><!----> <!----> <!----> <span>国际服专题</span></a> </div></div><div class="item header"><div class="title">
+          职业专题 <i class="caret down icon expand-icon"></i></div> <div class="menu"><a href="/job/" class="item"><!----> <!----> <!----> <span>职业介绍</span></a><a href="/job/paladin.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/paladin.png" as="image"> <span>骑士（剑术师）</span></a><a href="/job/warrior.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/warrior.png" as="image"> <span>战士（斧术师）</span></a><a href="/job/darkknight.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/darkknight.png" as="image"> <span>暗黑骑士</span></a><a href="/job/gunbreaker.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/gunbreaker.png" as="image"> <span>绝枪战士</span></a><a href="/job/monk.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/monk.png" as="image"> <span>武僧（格斗家）</span></a><a href="/job/dragoon.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/dragoon.png" as="image"> <span>龙骑士（枪术师）</span></a><a href="/job/ninja.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/ninja.png" as="image"> <span>忍者（双剑师）</span></a><a href="/job/samurai.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/samurai.png" as="image"> <span>武士</span></a><a href="/job/bard.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/bard.png" as="image"> <span>吟游诗人（弓箭手）</span></a><a href="/job/machinist.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/machinist.png" as="image"> <span>机工士</span></a><a href="/job/dancer.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/dancer.png" as="image"> <span>舞者</span></a><a href="/job/blackmage.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/blackmage.png" as="image"> <span>黑魔法师（咒术师）</span></a><a href="/job/summoner.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/summoner.png" as="image"> <span>召唤师（秘术师）</span></a><a href="/job/redmage.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/redmage.png" as="image"> <span>赤魔法师</span></a><a href="/job/bluemage.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/bluemage.png" as="image"> <span>青魔法师</span></a><a href="/job/whitemage.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/whitemage.png" as="image"> <span>白魔法师（幻术师）</span></a><a href="/job/scholar.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/scholar.png" as="image"> <span>学者（秘术师）</span></a><a href="/job/astrologian.htm" class="item with-img"><!----> <img src="data:," class="img-placeholder"> <link rel="preload" href="/images/jobs/astrologian.png" as="image"> <span>占星术士</span></a> </div></div><div class="item header"><div class="title">
+          常用网站 <i class="caret down icon expand-icon"></i></div> <div class="menu"> <a href="http://ff.sdo.com" target="_blank" rel="noopenner noreferer" class="item">
+            国服官网
+          </a><a href="https://bbs.nga.cn/thread.php?fid=-362960" target="_blank" rel="noopenner noreferer" class="item">
+            NGA 玩家社区(FF14板)
+          </a><a href="https://ff14.huijiwiki.com" target="_blank" rel="noopenner noreferer" class="item">
+            最终幻想XIV中文维基
+          </a><a href="https://www.ffxiv.cn/" target="_blank" rel="noopenner noreferer" class="item">
+            素素攻略站
+          </a><a href="https://riesa.gitee.io/crystal/" target="_blank" rel="noopenner noreferer" class="item">
+            水晶驿站
+          </a></div></div></div></div> <div class="toggle-button"><button class="ui large green circular icon button"><i class="icon chevron right"></i></button></div></div></div></div> <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp"><div class="pswp__bg"></div> <div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div> <div class="pswp__item"></div> <div class="pswp__item"></div></div> <div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div> <button title="关闭（Esc）" class="pswp__button pswp__button--close"></button> <button title="全屏" class="pswp__button pswp__button--fs"></button> <button title="缩放" class="pswp__button pswp__button--zoom"></button> <div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div> <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div> <button title="上一张（左箭头）" class="pswp__button pswp__button--arrow--left"></button> <button title="下一张（右箭头）" class="pswp__button pswp__button--arrow--right"></button> <div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div></div><div class="global-ui"></div></div>
+    <script src="https://code.bdstatic.com/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://code.bdstatic.com/npm/@thewakingsands/eorzea-interactive-map@1.1.1/dist/map.js"></script>
+    <script src="/assets/js/app.9d63abe7.js" defer></script><script src="/assets/js/8.d6becf52.js" defer></script><script src="/assets/js/344.81469596.js" defer></script><script src="/assets/js/48.323e99b2.js" defer></script><script src="/assets/js/30.63c34083.js" defer></script>
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "be74bc1eb92c4cf9adffca9366a9f20f"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
