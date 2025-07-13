@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[405],{1176:function(t,n,s){"use strict";s.r(n);var o=s(16),r=Object(o.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("h1",{attrs:{id:"卢比坎特歼殛战"}},[this._v("卢比坎特歼殛战")]),this._v(" "),t("UnderConstruction")],1)}),[],!1,null,null,null);n.default=r.exports}}]);
