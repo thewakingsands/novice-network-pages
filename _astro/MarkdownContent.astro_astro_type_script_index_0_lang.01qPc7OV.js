@@ -1,0 +1,1 @@
+import{n as e,t}from"./gotoId.BTPMuNgt.js";var n=document.querySelector(`[data-content]`);if(n&&t(n),location.hash.length>1){let t=location.hash.slice(1),n=t;try{n=decodeURIComponent(t)}catch{}requestAnimationFrame(()=>e(n))}

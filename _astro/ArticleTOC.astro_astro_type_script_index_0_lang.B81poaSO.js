@@ -1,0 +1,1 @@
+import{n as e,t}from"./gotoId.BTPMuNgt.js";var n=document.querySelector(`[data-anchor-scroll]`);n&&t(n),document.querySelector(`[data-top]`)?.addEventListener(`click`,t=>{t.preventDefault(),e(``)});
